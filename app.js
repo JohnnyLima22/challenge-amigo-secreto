@@ -13,6 +13,16 @@ titulo2.innerHTML = 'Digite o nome dos seus amigos';
 function adicionarAmigo() {
     let input = document.getElementById("amigo");
     let nome = input.value.trim();
+    
+    if (nome === '') {
+        alert("Por favor, digite um nome.");
+        return;
+    }
 
+    if (listaDeAmigos.includes(nome)) {
+        alert("Esse nome já foi adicionado.");
+        input.value = '';
+        return;
+    }
     
 }
