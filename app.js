@@ -25,4 +25,6 @@ function adicionarAmigo() {
         return;
     }
     
+    // Adiciona o nome na lista
+    listaDeAmigos.push(nome);
 }
