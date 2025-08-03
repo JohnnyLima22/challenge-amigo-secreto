@@ -9,10 +9,10 @@ titulo.innerHTML = 'Amigo Secreto';
 let titulo2 = document.querySelector('h2');
 titulo2.innerHTML = 'Digite o nome dos seus amigos';
 
-// Função clicar no "Adicionar"
+// Função clicar no "Adicionar" .trim usando para tirar espaços. 
 function adicionarAmigo() {
     let input = document.getElementById("amigo");
-    let nome = input.value();
+    let nome = input.value.trim();
 
     
 }
