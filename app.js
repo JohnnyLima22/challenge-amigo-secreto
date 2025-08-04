@@ -79,7 +79,7 @@ function reiniciar() {
     let titulo2 = document.querySelector("h2");
     titulo2.textContent = "Digite o nome dos seus amigos";
 
-    // (Opcional) Esvaziar a lista de amigos
+    //Esvaziar a lista de amigos
     listaDeAmigos = [];
     lista.innerHTML = '';
 }
