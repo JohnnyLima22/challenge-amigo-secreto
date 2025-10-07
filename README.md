@@ -43,7 +43,7 @@ Usar arrays para armazenar dados
 
 Criar e limpar listas dinâmicas
 
-Usar funções como push(), includes(), innerHTML, querySelector
+Usar funções como push(), includes(), innerHTML, querySelector.
 
 Validar campos de entrada
 
